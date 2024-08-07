@@ -50,11 +50,11 @@ AWS CLI (Command Line Interface) can be used to interact with AWS services from 
    - Create a model in SageMaker by specifying the S3 path to your model artifacts:
     ```bash  
    aws sagemaker create-model \
-    ```bash
+    
    --model-name my-model \
-     ```bash
+     
    --primary-container Image=your-docker-image-url,ModelDataUrl=s3://your-bucket-name/model.tar.gz \
-     ```bash
+     
    --execution-role-arn arn:aws:iam::your-account-id:role/your-sagemaker-role
 
 6. **Create an Endpoint Configuration:**
