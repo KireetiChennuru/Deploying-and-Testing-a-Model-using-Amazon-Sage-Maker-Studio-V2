@@ -29,9 +29,8 @@ Below is the architecture diagram that illustrates the various AWS services invo
 In this initial step, we define a machine learning model using Amazon SageMaker Notebook. The model is trained and prepared for deployment.
 
 #### **Using AWS CLI for deployment**
-<br>
 AWS CLI (Command Line Interface) can be used to interact with AWS services from the command line. Below are the steps and commands used to deploy the model using AWS CLI:
-<br>
+
 ![Using AWS CLI for deployment](https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/AWS%20CLI.jpg?raw=true)
 
 1. **List S3 Buckets:**
