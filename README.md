@@ -1,24 +1,3 @@
-
-### Explanation:
-- **AWS CLI Section**: Added a detailed section under the "Deploy the Model in Amazon SageMaker Inference Endpoint" step that explains how to use AWS CLI commands for deployment.
-- **Commands Included**:
-  - `aws s3 ls` to list S3 buckets.
-  - Commands for uploading artifacts, creating the model, endpoint configuration, deploying the endpoint, and checking the status.
-
-This addition will provide a comprehensive guide for users who prefer or need to use AWS CLI for model deployment on SageMaker.
-
-
-
-
-https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/Cloud%20Architecture.jpeg?raw=true
-
-Add a section after project overview and name that as Architecture Diagram and add the above image
-ChatGPT
-Here’s the updated project report with the new "Architecture Diagram" section, including the specified image:
-
-Updated Markdown Code:
-markdown
-Copy code
 # Deploying and Testing a Model using Amazon SageMaker Studio
 
 ## Project Overview
@@ -97,3 +76,13 @@ A sample web application is deployed using the CloudFront distribution domain na
 ## Conclusion
 
 This project demonstrates the power of integrating various AWS services to deploy, test, and serve a machine learning model. The architecture ensures scalability, security, and efficiency, making it a solid foundation for deploying production-level AI solutions.
+
+
+### Explanation:
+- **Architecture Diagram Section**: Added a new section titled "Architecture Diagram" right after the "Project Overview." This section includes the provided image to visually represent the project's architecture.
+- **Image URL**: The image is included using the provided URL in the Markdown format, ensuring it will be visible directly in the README file on GitHub.
+
+This enhancement provides a clear visual overview of the architecture before diving into the specifics of the project structure and deployment process.
+
+
+Kireeti Chennuru | 
