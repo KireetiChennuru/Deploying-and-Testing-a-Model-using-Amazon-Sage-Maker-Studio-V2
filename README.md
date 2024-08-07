@@ -1,4 +1,4 @@
-# Deploying and Testing a Model using Amazon SageMaker Studio
+# Deploying and Testing a Model using Amazon SageMaker Studio V2
 
 ## Project Overview
 
