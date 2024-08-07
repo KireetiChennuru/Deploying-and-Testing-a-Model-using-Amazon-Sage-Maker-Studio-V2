@@ -96,7 +96,7 @@ Once the model is defined and trained, it's deployed to an Amazon SageMaker Infe
 
 ![Deploy the Model](https://raw.githubusercontent.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/main/projectimages/Deploy%20the%20model%20in%20Amazon%20SageMaker%20Inference%20Endpoint.jpg "Deploying the Model in Amazon SageMaker Inference Endpoint")
 
-### 3. Test the Deployed Model
+### 3. Verify the Deployed Model
 
 After deployment, the model is tested to ensure it performs as expected. Testing involves invoking the endpoint and reviewing the predictions to validate accuracy and performance.
 
