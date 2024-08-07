@@ -144,5 +144,6 @@ A sample web application is deployed using the CloudFront distribution domain na
 This project demonstrates the power of integrating various AWS services to deploy, test, and serve a machine learning model. The architecture ensures scalability, security, and efficiency, making it a solid foundation for deploying production-level AI solutions.
 
 
+## Author
 
-Kireeti Chennuru | 
+- Kireeti Chennuru | www.linkedin.com/in/kireeti-chennuru
