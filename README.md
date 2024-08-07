@@ -1,8 +1,35 @@
-# Deploying and Testing a Model using Amazon SageMaker Studio V2
+
+### Explanation:
+- **AWS CLI Section**: Added a detailed section under the "Deploy the Model in Amazon SageMaker Inference Endpoint" step that explains how to use AWS CLI commands for deployment.
+- **Commands Included**:
+  - `aws s3 ls` to list S3 buckets.
+  - Commands for uploading artifacts, creating the model, endpoint configuration, deploying the endpoint, and checking the status.
+
+This addition will provide a comprehensive guide for users who prefer or need to use AWS CLI for model deployment on SageMaker.
+
+
+
+
+https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/Cloud%20Architecture.jpeg?raw=true
+
+Add a section after project overview and name that as Architecture Diagram and add the above image
+ChatGPT
+Here’s the updated project report with the new "Architecture Diagram" section, including the specified image:
+
+Updated Markdown Code:
+markdown
+Copy code
+# Deploying and Testing a Model using Amazon SageMaker Studio
 
 ## Project Overview
 
 This project focuses on deploying and testing a machine learning model using Amazon SageMaker Studio, integrating multiple AWS services to create a robust and scalable architecture. The project guides you through the entire process, from defining the model to testing it using a web application.
+
+## Architecture Diagram
+
+Below is the architecture diagram that illustrates the various AWS services involved in this project:
+
+![Cloud Architecture](https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/Cloud%20Architecture.jpeg?raw=true)
 
 ## Services Used
 
@@ -34,7 +61,7 @@ AWS CLI (Command Line Interface) can be used to interact with AWS services from 
    - First, verify that the S3 bucket containing your model artifacts exists by listing all buckets:
    ```bash
    aws s3 ls
-
+   
 2. 
 
 ![Deploy the Model](https://raw.githubusercontent.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/main/projectimages/Deploy%20the%20model%20in%20Amazon%20SageMaker%20Inference%20Endpoint.jpg "Deploying the Model in Amazon SageMaker Inference Endpoint")
