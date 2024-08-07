@@ -59,17 +59,34 @@ AWS CLI (Command Line Interface) can be used to interact with AWS services from 
 
 6. **Create an Endpoint Configuration:**
    - Set up an endpoint configuration that will be used to deploy the model:
-     ```bash  
-   aws sagemaker create-endpoint-config \
+   ```bash  
+   aws sagemaker create-model \
+    
+   --aws sagemaker create-endpoint-config \
+     
    --endpoint-config-name my-endpoint-config \
+     
    --production-variants VariantName=AllTraffic,ModelName=my-model,InitialInstanceCount=1,InstanceType=ml.m4.xlarge
 
-7. **Deploy the Model:**
-   - Finally, deploy the model by creating an endpoint:
 
-   aws sagemaker create-endpoint \
-  --endpoint-name my-endpoint \
-  --endpoint-config-name my-endpoint-config
+6. **Deploy the Model:**
+   - Finally, deploy the model by creating an endpoint:
+     
+   ```bash  
+   aws sagemaker create-model \
+    
+   --aws sagemaker create-endpoint \
+     
+   --endpoint-name my-endpoint \
+     
+   --endpoint-config-name my-endpoint-config
+
+
+7. **Check the Status of the Endpoint:**
+   - Check the status of the endpoint deployment:
+     
+   ```bash  
+   aws sagemaker describe-endpoint --endpoint-name my-endpoint
 
 
 ### 2. Deploy the Model in Amazon SageMaker Inference Endpoint
