@@ -49,6 +49,8 @@ AWS CLI (Command Line Interface) can be used to interact with AWS services from 
 
 After deployment, the model is tested to ensure it performs as expected. Testing involves invoking the endpoint and reviewing the predictions to validate accuracy and performance.
 
+![Test the Deployed Model]( "Deploying the Model in Amazon SageMaker Inference Endpoint")
+
 ### 4. Creating Endpoint Test Functions in AWS Lambda
 
 AWS Lambda functions are created to interact with the deployed model. These functions handle the logic for invoking the SageMaker Endpoint and processing the responses.
@@ -77,12 +79,6 @@ A sample web application is deployed using the CloudFront distribution domain na
 
 This project demonstrates the power of integrating various AWS services to deploy, test, and serve a machine learning model. The architecture ensures scalability, security, and efficiency, making it a solid foundation for deploying production-level AI solutions.
 
-
-### Explanation:
-- **Architecture Diagram Section**: Added a new section titled "Architecture Diagram" right after the "Project Overview." This section includes the provided image to visually represent the project's architecture.
-- **Image URL**: The image is included using the provided URL in the Markdown format, ensuring it will be visible directly in the README file on GitHub.
-
-This enhancement provides a clear visual overview of the architecture before diving into the specifics of the project structure and deployment process.
 
 
 Kireeti Chennuru | 
