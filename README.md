@@ -49,7 +49,9 @@ AWS CLI (Command Line Interface) can be used to interact with AWS services from 
 
 After deployment, the model is tested to ensure it performs as expected. Testing involves invoking the endpoint and reviewing the predictions to validate accuracy and performance.
 
-![Test the Deployed Model]( "Deploying the Model in Amazon SageMaker Inference Endpoint")
+![Test Code Generation](https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/Test%20Code%20Generation%20and%20Sentence%20Completion.jpg?raw=true "Deploying the Model in Amazon SageMaker Inference Endpoint")
+<br>
+![Test Sentiment Analysis]( "Deploying the Model in Amazon SageMaker Inference Endpoint")
 
 ### 4. Creating Endpoint Test Functions in AWS Lambda
 
