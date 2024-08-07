@@ -14,6 +14,7 @@ This project focuses on deploying and testing a machine learning model using Ama
 - **Amazon SageMaker Notebook**
 - **SageMaker Model**
 - **Web App**
+- **AWS CLI**
 
 ## Project Structure
 
@@ -24,6 +25,17 @@ In this initial step, we define a machine learning model using Amazon SageMaker 
 ### 2. Deploy the Model in Amazon SageMaker Inference Endpoint
 
 Once the model is defined and trained, it's deployed to an Amazon SageMaker Inference Endpoint. This service allows for real-time predictions and can scale based on demand.
+
+#### **Using AWS CLI for Deployment**
+
+AWS CLI (Command Line Interface) can be used to interact with AWS services from the command line. Below are the steps and commands used to deploy the model using AWS CLI:
+
+1. **List S3 Buckets:**
+   - First, verify that the S3 bucket containing your model artifacts exists by listing all buckets:
+   ```bash
+   aws s3 ls
+
+2. 
 
 ![Deploy the Model](https://raw.githubusercontent.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/main/projectimages/Deploy%20the%20model%20in%20Amazon%20SageMaker%20Inference%20Endpoint.jpg "Deploying the Model in Amazon SageMaker Inference Endpoint")
 
