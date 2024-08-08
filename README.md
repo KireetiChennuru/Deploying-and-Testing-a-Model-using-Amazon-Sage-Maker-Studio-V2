@@ -10,6 +10,14 @@ Below is the architecture diagram that illustrates the various AWS services invo
 
 ![Cloud Architecture](https://github.com/KireetiChennuru/Deploying-and-Testing-a-Model-using-Amazon-Sage-Maker-Studio-/blob/main/projectimages/Cloud%20Architecture.jpeg?raw=true)
 
+ - A Large Language Model (LLM) is hosted on Amazon Sage Maker
+ - Amazon Sage Maker Studio V2, a unified machine learning integrated development environment (IDE) is used to streamline the model's development, training and deployemnt of all from one central location.
+ - A Sagemaker studio notebook is used to deploy the model as hosted inference on the sage maker endpoint. Ths process is used the robust and scalable sage maker infrastucture to ensure a reliable modl deployment.
+ - AWS Lambda functions are used to interact with the sage maker hosted inference.
+ - A sample web application is used to test the deployed model. This steps validates the functionality and responsiveness of the model post deployment.
+ - The sample applicaton is stored in s3 bucket on Amazon S3. This ensurees that application is securely stored and readily accessible.
+ - Amazon cloudfront (Content Delivery Network) for the application, enhancing speed, and performance. The application invokes API Gateway which in turn invokes th lambda function, provides smooth, scaable and efficient workflow.
+
 ## Services Used
 
 - **Amazon CloudFront**
