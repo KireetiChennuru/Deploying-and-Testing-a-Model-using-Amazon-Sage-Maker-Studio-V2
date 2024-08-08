@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on deploying and testing a machine learning model using Amazon SageMaker Studio, integrating multiple AWS services to create a robust and scalable architecture. The project guides you through the entire process, from defining the model to testing it using a web application.
+This project focuses on deploying and testing a machine learning model using Amazon SageMaker Studio V2, integrating multiple AWS services to create a robust and scalable architecture. The project guides you through the entire process, from defining the model to testing it using a web application.
 
 ## Architecture Diagram
 
