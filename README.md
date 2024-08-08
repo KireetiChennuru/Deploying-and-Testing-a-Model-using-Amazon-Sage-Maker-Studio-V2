@@ -15,7 +15,7 @@ Below is the architecture diagram that illustrates the various AWS services invo
  - A Sagemaker studio notebook is used to deploy the model as hosted inference on the sage maker endpoint. Ths process is used the robust and scalable sage maker infrastucture to ensure a reliable model deployment.
  - AWS Lambda functions are used to interact with the sage maker hosted inference.
  - A sample web application is used to test the deployed model. This steps validates the functionality and responsiveness of the model post deployment.
- - The sample applicaton is stored in s3 bucket on Amazon S3. This ensures that application is securely stored and readily accessible.
+ - The sample applicaton is stored in S3 bucket on Amazon S3. This ensures that application is securely stored and readily accessible.
  - Amazon CloudFront (Content Delivery Network) for the application, enhancing speed, and performance. The application invokes API Gateway which in turn invokes th lambda function, provides smooth, scaable and efficient workflow.
 
 ## Services Used
