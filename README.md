@@ -13,7 +13,7 @@ Below is the architecture diagram that illustrates the various AWS services invo
 
 ## Architecture Diagram Core Aspects:
  - A Large Language Model (LLM) is hosted on Amazon Sage Maker
- - Amazon Sage Maker Studio V2, a unified machine learning integrated development environment (IDE) is used to streamline the model's development, training and deployemnt of all from one central location.
+ - Amazon Sage Maker Studio V2, a unified machine learning integrated development environment (IDE) is used to streamline the model's development, training and deployment of all from one central location.
  - A Sagemaker studio notebook is used to deploy the model as hosted inference on the sage maker endpoint. Ths process is used the robust and scalable sage maker infrastucture to ensure a reliable model deployment.
  - AWS Lambda functions are used to interact with the sage maker hosted inference.
  - A sample web application is used to test the deployed model. This steps validates the functionality and responsiveness of the model post deployment.
